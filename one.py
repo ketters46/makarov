@@ -7,3 +7,10 @@ def str_inv(a):
     for i in range(len(a)-1,-1,-1):
         x += a[i]
     return x
+
+def str_new(a):
+    x = ""
+    for i in range(len(a)):
+        x+=a[i]
+        x+=" "
+    return x
